@@ -35,7 +35,7 @@ The data is persisted in an AWS RDS database.
 ## DevOps
 Terraform was used to spin up Virtual Machines (VMs), one each to hold a Bastion Host, Jenkins and Nexus and an additional one to run tests on. Each VM is configured with a Virtual Private Cloud (VPC). Each VPC has three subnets (one private and two public), three security groups and an internet gateway. A separate RDS is also spun up, assigned with a private security group.
 
-![Terraform Diagram with attributes](https://imgur.com/6K9anpL)
+![Terraform Diagram with attributes](https://i.imgur.com/6K9anpL.jpg)
 
 The Jenkins Pipeline is not accessible directly from the Internet, only through the Bastion Host and is initially set up via Ansible.
 Kubernetes clusters are used to containerize the frontend, gateway and backend services, with a NGINX reverse proxy used as a Load Balancer.
