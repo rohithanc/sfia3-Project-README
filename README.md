@@ -28,6 +28,7 @@ The ticket comprises of the following attributes:
 A Jira board was used to assign tasks and stories to different members of the team.
 
 ![First Development of Ticket](https://i.imgur.com/TISjH4X.png)
+
 ![Latest Version of Ticket]
 
 ## Risk Assessment
@@ -37,7 +38,8 @@ The front-end service acts as the web application’s user interface and is writ
 
 ### Templates and Wireframes
 At the start of the project, research was done, looking up previous Help Queue services and establishing what key features would be best for this project. Templates were drawn up and wireframes were constructed for both MVP and stretch goal designs.
-![MVP 
+![MVP Create Tickets](https://i.imgur.com/ITyaCe0.png)
+![Stretch Create Tickets](https://i.imgur.com/C3VLve5.png)
 
 ## Gateway
 The gateway service acts as a middleman between the front-end and back-end service. / / The front-end makes requests to the backend via the gateway service, using Spring Boot.
