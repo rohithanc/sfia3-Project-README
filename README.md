@@ -33,7 +33,8 @@ A Jira board was used to assign tasks and stories to different members of the te
 The front-end service acts as the web application’s user interface and is written in React. 
 
 ### Templates and Wireframes
-At the start of the project, research was done on 
+At the start of the project, research was done, looking up previous Help Queue services and establishing what key features would be best for this project. Templates were drawn up and wireframes were constructed for both MVP and stretch goal designs.
+![MVP 
 
 ## Gateway
 The gateway service acts as a middleman between the front-end and back-end service. / / The front-end makes requests to the backend via the gateway service, using Spring Boot.
@@ -51,4 +52,6 @@ Terraform was used to spin up Virtual Machines (VMs), one each to hold a Bastion
 ![Terraform Diagram with attributes](https://i.imgur.com/DxwfSG2.jpg)
 
 The Jenkins Pipeline is not accessible directly from the Internet, only through the Bastion Host and is initially set up via Ansible.
+![Jenkins Pipeline](https://i.imgur.com/TISjH4X.png)
+
 Kubernetes clusters are used to containerize the frontend, gateway and backend services, with a NGINX reverse proxy used as a Load Balancer.
