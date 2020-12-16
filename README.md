@@ -32,11 +32,15 @@ A Jira board was used to assign tasks and stories to different members of the te
 ## Front-end
 The front-end service acts as the web application’s user interface and is written in React. 
 
+### Templates and Wireframes
+At the start of the project, research was done on 
+
 ## Gateway
 The gateway service acts as a middleman between the front-end and back-end service. / / The front-end makes requests to the backend via the gateway service, using Spring Boot.
+This was configured with NGINX in Kubernetes. 
 
 ## Back-end
-The Backend is written in  Java and consists of several microservices:
+The Backend is written in Java and consists of several microservices: *create*, *delete*, *get*, *get Single* and *update*
 
 ## Database
 The data is persisted in an AWS RDS database.
