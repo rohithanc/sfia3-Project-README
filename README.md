@@ -45,7 +45,7 @@ DevOps Requirements:
 ## Planning and Development
 A Jira board was used to assign tasks and stories to different members of the team.
 
-![First Development of Ticket](https://i.imgur.com/TISjH4X.png)
+![First Development of Ticket]
 
 ![Latest Version of Ticket]
 
