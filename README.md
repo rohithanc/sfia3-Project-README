@@ -5,23 +5,15 @@ The aim of the project is to create a Help Queue web application consisting of t
 
 The ticket comprises of the following attributes:
 
-•	Title
-
-•	Author
-
-•	Description
-
-•	Time Created
-
-•	Urgency
-
-•	Solution
-
-•	Status
-
-•	Email
-
-•	Topic
+* Title
+* Author
+* Description
+* Time Created
+* Urgency
+* Solution
+* Status
+* Email
+* Topic
 
 Software Development Requirements:
 
@@ -45,9 +37,7 @@ DevOps Requirements:
 ## Planning and Development
 A Jira board was used to assign tasks and stories to different members of the team.
 
-![First Development of Ticket]
-
-![Latest Version of Ticket]
+![Jira Board](https://i.imgur.com/pIwZami.png)
 
 ## Risk Assessment
 
@@ -60,6 +50,15 @@ The front-end service acts as the web application’s user interface and is writ
 
 ### Templates and Wireframes
 At the start of the project, research was done, looking up previous Help Queue services and establishing what key features would be best for this project. Templates were drawn up and wireframes were constructed for both MVP and stretch goal designs.
+
+### Initial Development of Tickets
+
+![First Development of Ticket]
+
+![Latest Version of Ticket]
+
+### Wireframes
+
 ![MVP Create Tickets](https://i.imgur.com/ITyaCe0.png) 
 
 ***MVP Create Tickets***
